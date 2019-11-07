@@ -1,0 +1,1 @@
+docker run --rm -it -p 9000:443 twitch-fun-api:0.0.1

@@ -1,5 +1,5 @@
 region=${1:---test}
-if [ region == "--prod" ]
+if [ $region == "--prod" ]
 then
     echo "building for prod"
     go build -a -ldflags '-extldflags "-static"' -o ./dist/twitch-fun-api
